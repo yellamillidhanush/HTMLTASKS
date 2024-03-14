@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+body{
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/31/15/37/evergreen-2025158_1280.png');
+    background-repeat: no-repeat;
+}
+#kitten-image{
+    width:90%;
+}
+#puppy-image{
+    width:90%;  
+}
+#main-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+    margin-top: 450px;
+}
+#roof1{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 90px solid skyblue;
+}
+#wall1{
+    background-color: white;
+    margin-left:50px ;
+    width: 100px;
+    height:100px;
+}
+#roof2{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 90px solid yellow;
+}
+#wall2{
+    background-color: white;
+    margin-left:50px ;
+    width: 100px;
+    height:100px;
+}
+    </style>
+</head>
+<body>
+    <h1>Build Houses for Kitten & Puppy</h1>
+    <div id="main-container">
+        <div id="house1">
+            <div id="roof1"></div>
+            <div id="wall1">
+            <img id="kitten-image" src="https://cdn.pixabay.com/photo/2020/11/15/18/31/cat-5746771_1280.png
+            " alt="">
+            </div> 
+        </div>
+
+        <div id="house2">
+            <div id="roof2"></div>
+            <div id="wall2">
+            <img id="puppy-image" src="https://cdn.pixabay.com/photo/2020/08/10/22/32/dog-5478891_1280.png" alt="">
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
